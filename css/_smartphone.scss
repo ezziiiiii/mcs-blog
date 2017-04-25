@@ -2,46 +2,36 @@
 
     //---------- HEADER ----------//
     .header {
-        .logo {
-            .navbar-brand {
-                position: relative;
-                text-align: center;
-            }
-        }
-        .menu {
-            .navbar-custom {
-                .wr-navbar {
-                    .navbar-header {
-                        button.navbar-toggle {
-                            .icon-bar {
-                                background-color: $grey-body;
-                            }
-                            margin: 23px;
-                            background-color: $green;
+        .navbar-custom {
+            .wr-navbar {
+                .navbar-header {
+                    .navbar-toggle:hover {
+                        .icon-bar {
+                            background-color: $grey-body;
                         }
-                        span.navbar-brand {
-                            margin: 15px 10px;
-                            font-family: 'PT Serif', serif;
-                            font-weight: 600;
-                            font-size: 18px;
-                            letter-spacing: 3px;
-                        }
-                    }
-                    .navbar-menu {
-                        .navbar-nav {
-                            li {
-                                height: 60px;
-                                padding: 0px;
-                                border: none;
-                            }
-                            a {
-                                height: 60px;
-                                padding: 20px 30px;
-                            }
-                        }
+                        background-color: $green;
+                        border: none;
                     }
                 }
+                .navbar-nav {
+                   li {
+                       padding: 0px;
+                   }
+                   .dropdown {
+                       .dropdown-menu::before {
+                        content: "";
+                        position: absolute;
+                        top: -34%;
+                        left: 70%;
+                        margin-left: -5px;
+                        border-width: 15px;
+                        border-style: solid;
+                        border-color: transparent transparent transparent transparent;
+                        }
+                   }
+               }
             }
+            height: auto;
         }
     }
 

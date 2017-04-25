@@ -2,11 +2,23 @@
 
     //---------- HEADER ----------//
     .header {
-        .logo {
-            .navbar-brand {
-                position: relative;
-                left: 300px;
-            }
+       .navbar-custom {
+           .wr-navbar {
+               .navbar-header {
+                   padding: 5px 0px;
+               }
+               .navbar-nav {
+                   li {
+                       padding: 15px 0px;
+                   }
+               }
+               .navbar-right {
+                   li {
+                       padding-top: 0px;
+                   }
+               }
+           }
+            height: auto;
         }
     }
 
