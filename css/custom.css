@@ -20,7 +20,8 @@ body {
       .header .navbar-custom .wr-navbar .navbar-header .navbar-brand {
         font-size: 36px;
         font-weight: 700;
-        font-family: 'Open Sans', sans-serif; }
+        font-family: 'Open Sans', sans-serif;
+        color: #e3e3e3; }
     .header .navbar-custom .wr-navbar .navbar-nav li {
       padding: 21px 0px; }
     .header .navbar-custom .wr-navbar .navbar-nav .input-group input {
