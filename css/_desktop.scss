@@ -83,6 +83,7 @@ body {
                     }
                 }
             }
+            padding: 0px;
         }
         height: 80px;
         background-color: $black;
@@ -117,6 +118,10 @@ body {
 position: fixed;
 width: 100%;  
 z-index: 999;
+}
+
+.input-search {
+    padding: 0px;
 }
 
 //---------- OPENING ----------//
@@ -584,6 +589,21 @@ z-index: 999;
                     }
                 }
                 padding-bottom: 20px;
+                margin-bottom: 30px;
+            }
+
+            .search {
+                button {
+                    i {
+                        color: $dark-grey;
+                    }
+                }
+                button:hover {
+                    i {
+                        color: $grey-body;
+                    }
+                    background-color: $green;
+                }
             }
             padding-left: 30px;
             padding-right: 0px;
