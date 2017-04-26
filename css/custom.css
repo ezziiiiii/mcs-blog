@@ -40,18 +40,20 @@ body {
       .header .navbar-custom .wr-navbar .navbar-nav .input-group button:hover {
         background-color: #48cfad;
         color: #e3e3e3; }
-      .header .navbar-custom .wr-navbar .navbar-nav .dropdown .dropdown-menu li {
-        padding: 0px; }
-      .header .navbar-custom .wr-navbar .navbar-nav .dropdown .dropdown-menu a {
-        font-family: 'PT Serif', serif;
-        -webkit-transition: .2s background-color ease-in, .2s color ease-in;
-        -moz-transition: .2s background-color ease-in, .2s color ease-in;
-        -ms-transition: .2s background-color ease-in, .2s color ease-in;
-        -o-transition: .2s background-color ease-in, .2s color ease-in;
-        transition: .2s background-color ease-in, .2s color ease-in; }
-      .header .navbar-custom .wr-navbar .navbar-nav .dropdown .dropdown-menu a:hover {
-        color: #e3e3e3;
-        background-color: #48cfad; }
+      .header .navbar-custom .wr-navbar .navbar-nav .dropdown .dropdown-menu {
+        top: 80px; }
+        .header .navbar-custom .wr-navbar .navbar-nav .dropdown .dropdown-menu li {
+          padding: 0px; }
+        .header .navbar-custom .wr-navbar .navbar-nav .dropdown .dropdown-menu a {
+          font-family: 'PT Serif', serif;
+          -webkit-transition: .2s background-color ease-in, .2s color ease-in;
+          -moz-transition: .2s background-color ease-in, .2s color ease-in;
+          -ms-transition: .2s background-color ease-in, .2s color ease-in;
+          -o-transition: .2s background-color ease-in, .2s color ease-in;
+          transition: .2s background-color ease-in, .2s color ease-in; }
+        .header .navbar-custom .wr-navbar .navbar-nav .dropdown .dropdown-menu a:hover {
+          color: #e3e3e3;
+          background-color: #48cfad; }
       .header .navbar-custom .wr-navbar .navbar-nav .dropdown .dropdown-menu::before {
         content: "";
         position: absolute;
