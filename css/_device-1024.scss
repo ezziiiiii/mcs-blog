@@ -16,4 +16,19 @@
              }
         }
     }
+
+    //---------- ABOUT ----------//
+    .about-page {
+
+        //----------OUR-TEAM----------//
+        .our-team {
+            .content-slider {
+                .team-list {
+                    width: 400px !important;
+                    padding: 100px !important;
+                }
+            }
+        }
+        padding-top: 130px !important;
+    }
 }
