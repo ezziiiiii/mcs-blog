@@ -977,6 +977,10 @@ body {
       -webkit-border-radius: 0 0 4px 4px;
       -moz-border-radius: 0 0 4px 4px;
       border-radius: 0 0 4px 4px; }
+    .single-post .wr-comment .comments-container .comment-box .input-reply input {
+      padding: 10px;
+      height: 40px;
+      border-radius: 0px; }
     .single-post .wr-comment .comments-container .comment-box .comment-name.by-author, .single-post .wr-comment .comments-container .comment-box .comment-name.by-author a {
       color: #29292A; }
     .single-post .wr-comment .comments-container .comment-box .comment-name.by-author:after {

@@ -357,6 +357,13 @@
                 -moz-border-radius: 0 0 4px 4px;
                 border-radius: 0 0 4px 4px;
             }
+            .comment-box .input-reply {
+                input {
+                    padding: 10px;
+                    height: 40px;
+                    border-radius: 0px;
+                }
+            }
             .comment-box .comment-name.by-author, .comment-box .comment-name.by-author a {color: $black;}
             .comment-box .comment-name.by-author:after {
                 content: 'autor';
