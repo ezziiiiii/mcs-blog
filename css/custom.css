@@ -458,6 +458,11 @@ body {
   .footer small {
     color: #888888; }
 
+@media (min-width: 1024px) and (max-width: 1248px) {
+  .single-post .wr-comment .comments-container .comments-list .comment-box {
+    width: 852px !important; }
+  .single-post .wr-comment .comments-container .reply-list .comment-box {
+    width: 779px !important; } }
 @media (min-width: 768px) and (max-width: 1023px) {
   .header .navbar-custom {
     height: auto; }
@@ -671,8 +676,7 @@ body {
       .single-post .form-comment .wr-form-comment .form table td input {
         font-size: 14px !important;
         padding: 10px !important;
-        height: 40px !important;
-        width: 169px !important; }
+        height: 40px !important; }
       .single-post .form-comment .wr-form-comment .form textarea {
         padding: 10px !important;
         font-size: 14px !important; }
@@ -786,7 +790,6 @@ body {
       .single-post .form-comment .wr-form-comment .form table {
         margin-bottom: 15px; }
         .single-post .form-comment .wr-form-comment .form table td {
-          width: 300px;
           padding-right: 15px; }
           .single-post .form-comment .wr-form-comment .form table td input {
             font-size: 16px;
