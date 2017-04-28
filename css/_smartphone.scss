@@ -314,4 +314,51 @@
             padding: 0px 15px;
         }
     }
+
+    .contact-us {
+        
+        //---------- MAP ----------//
+        .map {
+            .wr-map {
+                .map-detail {
+                    iframe {
+                        width: 354px !important;
+                        height: 200px;
+                    }
+                }
+                .info {
+                    p {
+                        font-size: 14px !important;
+                    }
+                    .address, .phone {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+
+        .form-contact {
+            .wr-form-contact {
+                .title {
+                    h1 {
+                        font-size: 32px !important;
+                    }
+                }
+                .form {
+                    .name, .email {
+                        input {
+                            height: 40px !important;
+                            margin-bottom: 10px;
+                        }
+                    }
+                    .submit-message {
+                        p {
+                            font-size: 14px !important;
+                        }
+                    }
+                }
+            }
+        }
+        padding: 0px 15px;
+    }
 }

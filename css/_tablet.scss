@@ -302,4 +302,45 @@
         }
         padding-top: 175px !important;
     }
+
+    //---------- CONTACT-US ----------//
+    .contact-us {
+        
+        //---------- MAP ----------//
+        .map {
+            .wr-map {
+                .map-detail {
+                    iframe {
+                        width: 720px !important;
+                    }
+                }
+                .info {
+                    p {
+                        font-size: 14px !important;
+                    }
+                }
+            }
+        }
+
+        .form-contact {
+            .wr-form-contact {
+                .title {
+                    h1 {
+                        font-size: 32px !important;
+                    }
+                }
+                .form {
+                    input {
+                        height: 40px !important;
+                    }
+                    .submit-message {
+                        p {
+                            font-size: 14px !important;
+                        }
+                    }
+                }
+            }
+        }
+        padding-top: 175px !important;
+    }
 }
