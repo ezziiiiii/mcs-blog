@@ -1221,4 +1221,12 @@ body {
             -o-transform: scale(1.08);
             transform: scale(1.08); }
 
+.contact-us {
+  padding-top: 130px; }
+  .contact-us .map {
+    margin-bottom: 30px; }
+    .contact-us .map .wr-map {
+      background-color: #fff;
+      padding: 30px 15px; }
+
 /*# sourceMappingURL=custom.css.map */
