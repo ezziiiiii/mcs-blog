@@ -31,4 +31,21 @@
         }
         padding-top: 130px !important;
     }
+
+    //---------- GALLERY ----------//
+    .gallery {
+        .image {
+            .wr-image {
+                .list-image {
+                    .photo {
+                        .wr-photo {
+                            img {
+                                height: 160px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

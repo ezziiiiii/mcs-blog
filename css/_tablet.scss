@@ -279,4 +279,27 @@
         }
         padding-top: 175px !important;
     }
+
+    //---------- GALLERY ----------//
+    .gallery {
+        .image {
+            .wr-image {
+                .title {
+                    h1 {
+                        font-size: 32px !important;
+                    }
+                }
+                .list-image {
+                    .photo {
+                        .wr-photo {
+                            img {
+                                height: 160px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        padding-top: 175px !important;
+    }
 }
