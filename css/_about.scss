@@ -83,11 +83,14 @@
                     margin-bottom: 10px;
                 }
                 .personal-info {
+                    p {
+                        font-family: 'PT Serif', serif;
+                    }
                     i {
                         color: $green;
                     }
                 }
-                padding: 100px;
+                padding: 90px;
             }
             .team-list:hover {
                 img {

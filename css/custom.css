@@ -1089,7 +1089,7 @@ body {
       -ms-transition: .2s background-color ease-in;
       -o-transition: .2s background-color ease-in; }
     .about-page .our-team .content-slider .team-list {
-      padding: 100px; }
+      padding: 90px; }
       .about-page .our-team .content-slider .team-list h4, .about-page .our-team .content-slider .team-list p {
         color: #888888;
         font-weight: 600; }
@@ -1104,6 +1104,8 @@ body {
       .about-page .our-team .content-slider .team-list .user-name {
         border-bottom: 1px solid #eaeaea;
         margin-bottom: 10px; }
+      .about-page .our-team .content-slider .team-list .personal-info p {
+        font-family: 'PT Serif', serif; }
       .about-page .our-team .content-slider .team-list .personal-info i {
         color: #48cfad; }
     .about-page .our-team .content-slider .team-list:hover {
