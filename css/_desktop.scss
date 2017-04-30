@@ -3,7 +3,7 @@ $green: #48cfad;
 $grey-body: #e3e3e3;
 $grey-text: #b6b6b6;
 $dark-grey: #888888;
-$shadow-artikel: 3px 3px 5px grey;
+$shadow-artikel: 3px 3px 5px rgba(41, 41,42, .5);
 
 body {
     h1, h2, h3 {
@@ -90,7 +90,7 @@ body {
         background-color: $black;
         border: none;
         margin-bottom: 0px;
-        box-shadow: 0px 3px 3px grey;
+        box-shadow: 0px 3px 3px rgba(41, 41,42, .5);
     }
     .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
         background-color: $green;
