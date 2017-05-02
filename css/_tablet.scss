@@ -11,6 +11,11 @@
                    li {
                        padding: 15px 0px;
                    }
+                   .dropdown {
+                       .dropdown-menu {
+                           top: 54px !important;
+                       }
+                   }
                }
                .navbar-right {
                    li {
@@ -349,12 +354,59 @@
 
         .user-info {
             .wr-user-info {
+                .title {
+                    h1 {
+                        font-size: 32px !important;
+                    }
+                }
                 .content {
                     .info-detail {
                         tr {
                             td{
                                 width: 250px !important;
                                 padding-left: 30px !important;
+                            }
+                        }
+                    }
+                    .editing {
+                        a {
+                            font-size: 14px !important;
+                        }
+                    }
+                }
+            }
+        }
+        padding-top: 175px !important;
+    }
+
+    //---------- ACCOUNT-SET ----------//
+    .account-set {
+
+        .form-account {
+            .wr-form-account {
+                .title {
+                    h1 {
+                        font-size: 32px !important;
+                    }
+                }
+                .body-form {
+                    .middle {
+                        .change-pic {
+                            button {
+                                p {
+                                    font-size: 14px !important;
+                                }
+                            }
+                        }
+                        .form {
+                            form {
+                                table {
+                                    button#update, button#reset {
+                                        p {
+                                            font-size: 14px !important;
+                                        }
+                                    }
+                                }
                             }
                         }
                     }

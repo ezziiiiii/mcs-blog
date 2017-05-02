@@ -222,7 +222,7 @@
                     }
                     button {
                         p {
-                            font-size: 14px !important;
+                            font-size: 12px !important;
                         }
                     }
                 }
@@ -354,7 +354,7 @@
                     }
                     .submit-message {
                         p {
-                            font-size: 14px !important;
+                            font-size: 12px !important;
                         }
                     }
                 }
@@ -368,12 +368,58 @@
 
         .user-info {
             .wr-user-info {
+                .title {
+                    h1 {
+                        font-size: 32px !important;
+                    }
+                }
                 .content {
                     .info-detail {
                         tr {
                             td{
                                 width: 250px !important;
                                 padding-left: 0px !important;
+                            }
+                        }
+                    }
+                    .editing {
+                        a {
+                            font-size: 12px !important;
+                        }
+                    }
+                }
+            }
+            padding: 0px 15px;
+        }
+    }
+
+    //---------- ACCOUNT-SET ----------//
+    .account-set {
+        .form-account {
+            .wr-form-account {
+                .title {
+                    h1 {
+                        font-size: 32px !important;
+                    }
+                }
+                .body-form {
+                    .middle {
+                        .change-pic {
+                            button {
+                                p {
+                                    font-size: 12px !important;
+                                }
+                            }
+                        }
+                        .form {
+                            form {
+                                table {
+                                    button#update, button#reset {
+                                        p {
+                                            font-size: 12px !important;
+                                        }
+                                    }
+                                }
                             }
                         }
                     }

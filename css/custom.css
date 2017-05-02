@@ -488,6 +488,8 @@ body {
       padding: 5px 0px; }
     .header .navbar-custom .wr-navbar .navbar-nav li {
       padding: 15px 0px; }
+    .header .navbar-custom .wr-navbar .navbar-nav .dropdown .dropdown-menu {
+      top: 54px !important; }
     .header .navbar-custom .wr-navbar .navbar-right li {
       padding-top: 0px; }
 
@@ -615,9 +617,22 @@ body {
 
   .user-profile {
     padding-top: 175px !important; }
+    .user-profile .user-info .wr-user-info .title h1 {
+      font-size: 32px !important; }
     .user-profile .user-info .wr-user-info .content .info-detail tr td {
       width: 250px !important;
-      padding-left: 30px !important; } }
+      padding-left: 30px !important; }
+    .user-profile .user-info .wr-user-info .content .editing a {
+      font-size: 14px !important; }
+
+  .account-set {
+    padding-top: 175px !important; }
+    .account-set .form-account .wr-form-account .title h1 {
+      font-size: 32px !important; }
+    .account-set .form-account .wr-form-account .body-form .middle .change-pic button p {
+      font-size: 14px !important; }
+    .account-set .form-account .wr-form-account .body-form .middle .form form table button#update p, .account-set .form-account .wr-form-account .body-form .middle .form form table button#reset p {
+      font-size: 14px !important; } }
 @media (max-width: 767px) {
   .header .navbar-custom {
     height: auto; }
@@ -731,7 +746,7 @@ body {
         padding: 10px !important;
         font-size: 14px !important; }
       .single-post .form-comment .wr-form-comment .form button p {
-        font-size: 14px !important; }
+        font-size: 12px !important; }
     .single-post .comment {
       padding: 0px 15px; }
     .single-post .wr-comment .heading-comment .navbar-header h1 {
@@ -781,13 +796,26 @@ body {
       height: 40px !important;
       margin-bottom: 10px; }
     .contact-us .form-contact .wr-form-contact .form .submit-message p {
-      font-size: 14px !important; }
+      font-size: 12px !important; }
 
   .user-profile .user-info {
     padding: 0px 15px; }
+    .user-profile .user-info .wr-user-info .title h1 {
+      font-size: 32px !important; }
     .user-profile .user-info .wr-user-info .content .info-detail tr td {
       width: 250px !important;
-      padding-left: 0px !important; } }
+      padding-left: 0px !important; }
+    .user-profile .user-info .wr-user-info .content .editing a {
+      font-size: 12px !important; }
+
+  .account-set .form-account {
+    padding: 0px 15px; }
+    .account-set .form-account .wr-form-account .title h1 {
+      font-size: 32px !important; }
+    .account-set .form-account .wr-form-account .body-form .middle .change-pic button p {
+      font-size: 12px !important; }
+    .account-set .form-account .wr-form-account .body-form .middle .form form table button#update p, .account-set .form-account .wr-form-account .body-form .middle .form form table button#reset p {
+      font-size: 12px !important; } }
 .single-post {
   padding-top: 130px;
   margin-bottom: 50px; }
@@ -1388,5 +1416,89 @@ body {
       .user-profile .user-info .wr-user-info .content .editing a:hover {
         text-decoration: none;
         box-shadow: 3px 3px 5px rgba(41, 41, 42, 0.5); }
+
+.account-set {
+  padding-top: 130px; }
+  .account-set .form-account {
+    margin-bottom: 50px; }
+    .account-set .form-account .wr-form-account {
+      padding: 30px 15px;
+      background-color: #fff;
+      box-shadow: 3px 3px 5px rgba(41, 41, 42, 0.5); }
+      .account-set .form-account .wr-form-account .title {
+        margin-bottom: 30px; }
+        .account-set .form-account .wr-form-account .title h1 {
+          margin: 0px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 400;
+          font-size: 38px; }
+      .account-set .form-account .wr-form-account .body-form .middle .change-pic {
+        margin-bottom: 30px; }
+        .account-set .form-account .wr-form-account .body-form .middle .change-pic .picture {
+          width: 240px;
+          height: 240px;
+          margin: 0px auto 20px;
+          border: 3px dashed #48cfad;
+          padding: 10px; }
+          .account-set .form-account .wr-form-account .body-form .middle .change-pic .picture img {
+            width: 220px;
+            height: 220px; }
+        .account-set .form-account .wr-form-account .body-form .middle .change-pic button {
+          background-color: #48cfad;
+          color: #e3e3e3;
+          border: none;
+          -webkit-transition: .2s box-shadow ease-in;
+          -moz-transition: .2s box-shadow ease-in;
+          -ms-transition: .2s box-shadow ease-in;
+          -o-transition: .2s box-shadow ease-in;
+          transition: .2s box-shadow ease-in; }
+          .account-set .form-account .wr-form-account .body-form .middle .change-pic button p {
+            margin-bottom: 0px;
+            font-size: 16px;
+            font-weight: 600; }
+        .account-set .form-account .wr-form-account .body-form .middle .change-pic button:hover {
+          box-shadow: 3px 3px 5px rgba(41, 41, 42, 0.5); }
+      .account-set .form-account .wr-form-account .body-form .middle .form form table {
+        width: 100%; }
+        .account-set .form-account .wr-form-account .body-form .middle .form form table td {
+          padding: 10px 15px; }
+        .account-set .form-account .wr-form-account .body-form .middle .form form table input[type=text] {
+          color: #b6b6b6; }
+        .account-set .form-account .wr-form-account .body-form .middle .form form table input[type=radio] {
+          margin-right: 5px; }
+        .account-set .form-account .wr-form-account .body-form .middle .form form table input[type=radio]#fmale {
+          margin-left: 15px; }
+        .account-set .form-account .wr-form-account .body-form .middle .form form table span {
+          color: #b6b6b6; }
+        .account-set .form-account .wr-form-account .body-form .middle .form form table button#update {
+          color: #e3e3e3;
+          border: 1px solid #48cfad;
+          background-color: #48cfad;
+          -webkit-transition: .2s box-shadow ease-in;
+          -moz-transition: .2s box-shadow ease-in;
+          -ms-transition: .2s box-shadow ease-in;
+          -o-transition: .2s box-shadow ease-in;
+          transition: .2s box-shadow ease-in; }
+          .account-set .form-account .wr-form-account .body-form .middle .form form table button#update p {
+            margin-bottom: 0px;
+            font-size: 16px;
+            font-weight: 600; }
+        .account-set .form-account .wr-form-account .body-form .middle .form form table button#update:hover {
+          box-shadow: 3px 3px 5px rgba(41, 41, 42, 0.5); }
+        .account-set .form-account .wr-form-account .body-form .middle .form form table button#reset {
+          background-color: #FFB65F;
+          border-color: #FFB65F;
+          color: #e3e3e3;
+          -webkit-transition: .2s box-shadow ease-in;
+          -moz-transition: .2s box-shadow ease-in;
+          -ms-transition: .2s box-shadow ease-in;
+          -o-transition: .2s box-shadow ease-in;
+          transition: .2s box-shadow ease-in; }
+          .account-set .form-account .wr-form-account .body-form .middle .form form table button#reset p {
+            margin-bottom: 0px;
+            font-size: 16px;
+            font-weight: 600; }
+        .account-set .form-account .wr-form-account .body-form .middle .form form table button#reset:hover {
+          box-shadow: 3px 3px 5px rgba(41, 41, 42, 0.5); }
 
 /*# sourceMappingURL=custom.css.map */
