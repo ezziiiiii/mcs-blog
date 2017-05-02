@@ -63,4 +63,23 @@
             }
         }
     }
+
+    //---------- USER-PROFILE ----------//
+    .user-profile {
+
+        .user-info {
+            .wr-user-info {
+                .content {
+                    .info-detail {
+                        tr {
+                            td{
+                                width: 250px !important;
+                                padding-left: 20px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
