@@ -632,7 +632,24 @@ body {
     .account-set .form-account .wr-form-account .body-form .middle .change-pic button p {
       font-size: 14px !important; }
     .account-set .form-account .wr-form-account .body-form .middle .form form table button#update p, .account-set .form-account .wr-form-account .body-form .middle .form form table button#reset p {
-      font-size: 14px !important; } }
+      font-size: 14px !important; }
+
+  .post-category {
+    padding-top: 175px !important; }
+    .post-category .heading-category .wr-heading-category h1 {
+      font-size: 32px !important; }
+    .post-category .heading-category .wr-heading-category h1::before {
+      width: 15% !important; }
+    .post-category .heading-category .wr-heading-category h1::after {
+      width: 15% !important; }
+    .post-category .artikel p {
+      font-size: 14px !important; }
+    .post-category .artikel .title h1 {
+      font-size: 32px !important; }
+    .post-category .artikel .image {
+      height: 400px !important; }
+      .post-category .artikel .image img {
+        height: 400px !important; } }
 @media (max-width: 767px) {
   .header .navbar-custom {
     height: auto; }
@@ -768,6 +785,14 @@ body {
         background-color: #fff;
         padding: 30px 15px;
         box-shadow: 3px 3px 5px rgba(41, 41, 42, 0.5); }
+        .about-page .information .wr-information p {
+          font-size: 14px !important; }
+        .about-page .information .wr-information h3 {
+          font-size: 20px !important; }
+        .about-page .information .wr-information .title h1 {
+          font-size: 26px !important; }
+    .about-page .our-team h1 {
+      font-size: 26px !important; }
     .about-page .our-team .content-slider .team-list {
       width: 400px !important;
       padding: 100px !important; }
@@ -777,7 +802,7 @@ body {
   .gallery .image {
     padding: 0px 15px; }
     .gallery .image .wr-image .title h1 {
-      font-size: 32px !important; }
+      font-size: 26px !important; }
     .gallery .image .wr-image .list-image .photo .wr-photo img {
       height: 160px !important; }
 
@@ -791,31 +816,55 @@ body {
     .contact-us .map .wr-map .info .address, .contact-us .map .wr-map .info .phone {
       margin-bottom: 20px; }
     .contact-us .form-contact .wr-form-contact .title h1 {
-      font-size: 32px !important; }
-    .contact-us .form-contact .wr-form-contact .form .name input, .contact-us .form-contact .wr-form-contact .form .email input {
-      height: 40px !important;
+      font-size: 26px !important; }
+    .contact-us .form-contact .wr-form-contact .form .input-info {
+      margin-bottom: 0px !important; }
+    .contact-us .form-contact .wr-form-contact .form .name, .contact-us .form-contact .wr-form-contact .form .email, .contact-us .form-contact .wr-form-contact .form .phone {
       margin-bottom: 10px; }
+      .contact-us .form-contact .wr-form-contact .form .name input, .contact-us .form-contact .wr-form-contact .form .email input, .contact-us .form-contact .wr-form-contact .form .phone input {
+        height: 30px !important; }
+    .contact-us .form-contact .wr-form-contact .form .message {
+      margin-bottom: 10px !important; }
     .contact-us .form-contact .wr-form-contact .form .submit-message p {
       font-size: 12px !important; }
 
   .user-profile .user-info {
     padding: 0px 15px; }
     .user-profile .user-info .wr-user-info .title h1 {
-      font-size: 32px !important; }
+      font-size: 26px !important; }
     .user-profile .user-info .wr-user-info .content .info-detail tr td {
       width: 250px !important;
       padding-left: 0px !important; }
+      .user-profile .user-info .wr-user-info .content .info-detail tr td p {
+        font-size: 14px !important; }
     .user-profile .user-info .wr-user-info .content .editing a {
       font-size: 12px !important; }
 
   .account-set .form-account {
     padding: 0px 15px; }
     .account-set .form-account .wr-form-account .title h1 {
-      font-size: 32px !important; }
+      font-size: 26px !important; }
     .account-set .form-account .wr-form-account .body-form .middle .change-pic button p {
-      font-size: 12px !important; }
+      font-size: 14px !important; }
     .account-set .form-account .wr-form-account .body-form .middle .form form table button#update p, .account-set .form-account .wr-form-account .body-form .middle .form form table button#reset p {
-      font-size: 12px !important; } }
+      font-size: 14px !important; }
+
+  .post-category {
+    padding: 0px 15px; }
+    .post-category .heading-category .wr-heading-category h1 {
+      font-size: 26px !important; }
+    .post-category .artikel p {
+      font-size: 14px !important; }
+    .post-category .artikel .title h1 {
+      font-size: 26px !important; }
+    .post-category .artikel .image {
+      height: 250px !important; }
+      .post-category .artikel .image img {
+        height: 250px !important; }
+    .post-category .artikel .artikel-footer .footer-left p {
+      line-height: 30px !important; }
+    .post-category .artikel .artikel-footer .footer-right p {
+      line-height: 30px !important; } }
 .single-post {
   padding-top: 130px;
   margin-bottom: 50px; }
@@ -1500,5 +1549,150 @@ body {
             font-weight: 600; }
         .account-set .form-account .wr-form-account .body-form .middle .form form table button#reset:hover {
           box-shadow: 3px 3px 5px rgba(41, 41, 42, 0.5); }
+
+.post-category {
+  margin-bottom: 50px;
+  padding-top: 130px; }
+  .post-category .heading-category {
+    margin-bottom: 30px; }
+    .post-category .heading-category .wr-heading-category {
+      padding: 10px 15px;
+      background-color: #48cfad; }
+      .post-category .heading-category .wr-heading-category h1 {
+        margin: 0px;
+        color: #e3e3e3;
+        font-family: 'PT Serif', serif;
+        font-size: 38px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        text-align: center; }
+      .post-category .heading-category .wr-heading-category h1::before {
+        content: "";
+        display: inline-block;
+        height: 0.5em;
+        width: 20%;
+        margin-left: 0%;
+        margin-right: 20px;
+        border-top: 2px solid #e3e3e3; }
+      .post-category .heading-category .wr-heading-category h1::after {
+        content: "";
+        display: inline-block;
+        height: 0.5em;
+        width: 20%;
+        margin-right: 0%;
+        margin-left: 20px;
+        border-top: 2px solid #e3e3e3; }
+  .post-category .artikel {
+    background-color: #fff;
+    padding: 30px 0px;
+    margin-bottom: 30px;
+    box-shadow: 3px 3px 5px rgba(41, 41, 42, 0.5); }
+    .post-category .artikel p {
+      font-size: 16px;
+      font-family: 'PT Serif', serif;
+      letter-spacing: 3px;
+      margin: 0px;
+      color: #b6b6b6; }
+    .post-category .artikel .type-tag p::before {
+      content: "";
+      display: inline-block;
+      height: 0.5em;
+      width: 8%;
+      margin-left: 0%;
+      margin-right: 20px;
+      border-top: 2px solid #b6b6b6; }
+    .post-category .artikel .type-tag p::after {
+      content: "";
+      display: inline-block;
+      height: 0.5em;
+      width: 8%;
+      margin-right: 0%;
+      margin-left: 20px;
+      border-top: 2px solid #b6b6b6; }
+    .post-category .artikel .title {
+      margin: 15px 0px 25px; }
+      .post-category .artikel .title h1 {
+        font-size: 38px;
+        font-weight: 400;
+        color: #29292A;
+        margin: 0px; }
+    .post-category .artikel .image {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 10px;
+      padding: 0px;
+      height: 600px; }
+      .post-category .artikel .image img {
+        width: 100%;
+        height: 600px;
+        filter: brightness(70%);
+        -webkit-filter: brightness(70%);
+        -moz-filter: brightness(70%);
+        -ms-filter: brightness(70%);
+        -o-filter: brightness(70%);
+        -webkit-transition: 1s ease;
+        -moz-transition: 1s ease;
+        -ms-transition: 1s ease;
+        -o-transition: 1s ease;
+        transition: 1s ease; }
+      .post-category .artikel .image img:hover {
+        filter: brightness(100%);
+        -webkit-filter: brightness(100%);
+        -moz-filter: brightness(100%);
+        -ms-filter: brightness(100%);
+        -o-filter: brightness(100%);
+        -webkit-transform: scale(1.08);
+        -moz-transform: scale(1.08);
+        -ms-transform: scale(1.08);
+        -o-transform: scale(1.08);
+        transform: scale(1.08); }
+    .post-category .artikel .detail {
+      margin-bottom: 20px;
+      padding: 20px 15px;
+      border-bottom: 2px solid #e3e3e3; }
+      .post-category .artikel .detail p {
+        letter-spacing: 0px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        color: #888888; }
+    .post-category .artikel .artikel-footer .footer-left {
+      padding: 0px; }
+      .post-category .artikel .artikel-footer .footer-left .comment a {
+        color: #b6b6b6;
+        -webkit-transition: .2s color ease-in;
+        -moz-transition: .2s color ease-in;
+        -ms-transition: .2s color ease-in;
+        -o-transition: .2s color ease-in;
+        transition: .2s color ease-in; }
+      .post-category .artikel .artikel-footer .footer-left .comment a:hover {
+        text-decoration: none;
+        color: #48cfad; }
+    .post-category .artikel .artikel-footer .footer-right p {
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: 0px; }
+    .post-category .artikel .artikel-footer .footer-right a {
+      color: #29292A;
+      font-weight: 700;
+      -webkit-transition: .2s color ease-in;
+      -moz-transition: .2s color ease-in;
+      -ms-transition: .2s color ease-in;
+      -o-transition: .2s color ease-in;
+      transition: .2s color ease-in; }
+    .post-category .artikel .artikel-footer .footer-right a:hover {
+      text-decoration: none;
+      color: #48cfad; }
+  .post-category #div1 .pager li a {
+    color: #888888;
+    -webkit-transition: .2s background-color ease-in, .2s color ease-in;
+    -moz-transition: .2s background-color ease-in, .2s color ease-in;
+    -ms-transition: .2s background-color ease-in, .2s color ease-in;
+    -o-transition: .2s background-color ease-in, .2s color ease-in;
+    transition: .2s background-color ease-in, .2s color ease-in; }
+  .post-category #div1 .pager li a.active {
+    color: #e3e3e3;
+    background-color: #48cfad; }
+  .post-category #div1 .pager li a:hover {
+    color: #e3e3e3;
+    background-color: #48cfad; }
 
 /*# sourceMappingURL=custom.css.map */

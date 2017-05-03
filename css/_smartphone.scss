@@ -266,6 +266,17 @@
          //----------OUR-TEAM----------//
          .information {
              .wr-information {
+                 p {
+                    font-size: 14px !important;
+                 }
+                 h3 {
+                     font-size: 20px !important;
+                 }
+                 .title {
+                     h1 {
+                         font-size: 26px !important;
+                     }
+                 }
                 background-color: #fff;
                 padding: 30px 15px;
                 box-shadow: $shadow-artikel;
@@ -277,6 +288,9 @@
 
         //----------OUR-TEAM----------//
         .our-team {
+            h1 {
+                font-size: 26px !important;
+            }
             .content-slider {
                 .team-list {
                     width: 400px !important;
@@ -298,7 +312,7 @@
             .wr-image {
                 .title {
                     h1 {
-                        font-size: 32px !important;
+                        font-size: 26px !important;
                     }
                 }
                 .list-image {
@@ -342,15 +356,21 @@
             .wr-form-contact {
                 .title {
                     h1 {
-                        font-size: 32px !important;
+                        font-size: 26px !important;
                     }
                 }
                 .form {
-                    .name, .email {
+                    .input-info {
+                        margin-bottom: 0px !important;
+                    }
+                    .name, .email, .phone {
                         input {
-                            height: 40px !important;
-                            margin-bottom: 10px;
+                            height: 30px !important;
                         }
+                        margin-bottom: 10px;
+                    }
+                    .message {
+                        margin-bottom: 10px !important;
                     }
                     .submit-message {
                         p {
@@ -370,13 +390,16 @@
             .wr-user-info {
                 .title {
                     h1 {
-                        font-size: 32px !important;
+                        font-size: 26px !important;
                     }
                 }
                 .content {
                     .info-detail {
                         tr {
                             td{
+                                p {
+                                    font-size: 14px !important;
+                                }
                                 width: 250px !important;
                                 padding-left: 0px !important;
                             }
@@ -399,7 +422,7 @@
             .wr-form-account {
                 .title {
                     h1 {
-                        font-size: 32px !important;
+                        font-size: 26px !important;
                     }
                 }
                 .body-form {
@@ -407,7 +430,7 @@
                         .change-pic {
                             button {
                                 p {
-                                    font-size: 12px !important;
+                                    font-size: 14px !important;
                                 }
                             }
                         }
@@ -416,7 +439,7 @@
                                 table {
                                     button#update, button#reset {
                                         p {
-                                            font-size: 12px !important;
+                                            font-size: 14px !important;
                                         }
                                     }
                                 }
@@ -427,5 +450,45 @@
             }
             padding: 0px 15px;
         }
+    }
+
+    //---------- POST-CATEGORY ----------//
+    .post-category {
+        .heading-category {
+            .wr-heading-category {
+                h1 {
+                    font-size: 26px !important;
+                }
+            }
+        }
+        .artikel {
+            p {
+                font-size: 14px !important;
+            }
+            .title {
+                h1 {
+                    font-size: 26px !important;
+                }
+            }
+            .image {
+                img {
+                    height: 250px !important; 
+                }
+                height: 250px !important;
+            }
+            .artikel-footer {
+                .footer-left {
+                    p {
+                        line-height: 30px !important;
+                    }
+                }
+                .footer-right {
+                    p {
+                        line-height: 30px !important;
+                    }
+                }
+            }
+        }
+        padding: 0px 15px;
     }
 }

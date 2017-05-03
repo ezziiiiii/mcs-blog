@@ -415,4 +415,38 @@
         }
         padding-top: 175px !important;
     }
+
+    //---------- POST-CATEGORY ----------//
+    .post-category {
+        .heading-category {
+            .wr-heading-category {
+                h1 {
+                    font-size: 32px !important;
+                }
+                h1::before {
+                    width: 15% !important;
+                }
+                h1::after {
+                    width: 15% !important;
+                }
+            }
+        }
+        .artikel {
+            p {
+                font-size: 14px !important;
+            }
+            .title {
+                h1 {
+                    font-size: 32px !important;
+                }
+            }
+            .image {
+                img {
+                    height: 400px !important;
+                }
+                height: 400px !important;
+            }
+        }
+        padding-top: 175px !important;
+    }
 }
