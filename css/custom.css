@@ -59,9 +59,8 @@ body {
       .header .navbar-custom .wr-navbar .navbar-nav .dropdown .dropdown-menu::before {
         content: "";
         position: absolute;
-        top: -34%;
+        top: -30px;
         left: 70%;
-        margin-left: -5px;
         border-width: 15px;
         border-style: solid;
         border-color: transparent transparent #fff transparent; }
